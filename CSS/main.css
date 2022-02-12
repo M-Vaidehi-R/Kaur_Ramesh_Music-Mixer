@@ -2,43 +2,65 @@
 
 body{
     background-color: black;
+    margin:1em;
 }
 h1{
-    font-size: 15em;
+    font-size: 7em;
     text-align: center;
     color: aliceblue;
+  
+}
+
+.instruments{
+    margin-left:8em;
+    width: 40%;
+    height:40%;
+    cursor:grabbing;
 }
 #container {
- min-width: 50%;
- max-width: 100%;
-    
+width: 1920px;
+  
 }
 
-#theSystem{
+.theSystem{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    margin: 3em;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin: 1em;
     color:beige;
+    padding: .5em;
 
 }
 
-#mixer{
+.mixer{
 display:block;
 
 
 }
 
-#control{
-    margin-left: 15em;
-    font-size: x-large;
 
+#control img{
+    width: 50%;
+    height: 50%;
 
 }
-#control div {
-    display:inline-block;
-    margin:3em;
-    color:beige;
+#control {
+    margin-left: 10em;
+    align-self:flex-end;
+  
 }
+
+
+.drop-zone {
+	width: 35%;
+  height: 20%;
+  border: dashed rgb(240, 236, 8);
+  border-radius: 5em;
+  float: center;
+  margin: 2em;
+  
+}
+
+
 
 
 
