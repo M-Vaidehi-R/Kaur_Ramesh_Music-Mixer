@@ -1,0 +1,47 @@
+
+
+body{
+    background-color: black;
+}
+h1{
+    font-size: 15em;
+    text-align: center;
+    color: aliceblue;
+}
+#container {
+ min-width: 50%;
+ max-width: 100%;
+    
+}
+
+#theSystem{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin: 3em;
+    color:beige;
+
+}
+
+#mixer{
+display:block;
+
+
+}
+
+#control{
+    margin-left: 15em;
+    font-size: x-large;
+
+
+}
+#control div {
+    display:inline-block;
+    margin:3em;
+    color:beige;
+}
+
+
+
+
+
+
