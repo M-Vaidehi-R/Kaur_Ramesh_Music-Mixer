@@ -17,40 +17,71 @@
 
     <section id="container">  <!--the whole music mixer-->
 
-      <section id="theSystem"> <!--speakers and the mixer-->
+      <section class="theSystem"> <!--speakers and the mixer-->
 
         <section id="speaker_lt"> <!--speaker 1-->
 
-            <div>instrument 1</div>
-            <div>instrument 2</div>
-            <div>instrument 3</div>
-            <div>instrument 4</div>
+            <div>
+                <img class="instruments" draggable="true" src="Images/svg_icons/saxophone.svg" alt="saxophone">
+            </div>
+            <div>
+                <img class="instruments" draggable="true" src="Images/svg_icons/trumpet.svg" alt="trumpet">
+            </div>
+            <div>
+                <img class="instruments" draggable="true" src="Images/svg_icons/piano.svg" alt="piano">
+            </div>
+            <div><img class="instruments" draggable="true" src="Images/svg_icons/xylophone.svg" alt="xylophone"></div>
         </section>      <!-- end speaker 1-->
 
-        <section id="mixer"> <!--mixer with maximum of 6 slots for instrument, only 6 sounds can be mixed-->
-            <div>instrument 1</div>
-            <div>instrument 2</div>
-            <div>instrument 3</div>
-            <div>instrument 4</div>
-            <div>instrument 5</div>
-            <div>instrument 6</div>
+        <section class="mixer"> <!--mixer with maximum of 6 slots for instrument, only 6 sounds can be mixed-->
+            <div class="drop-zone"> 1</div>
+            <div class="drop-zone"> 2</div>
+            <div class="drop-zone"> 3</div>
+        </section>
+        
+        <section class="mixer">
+        
+            <div class="drop-zone"> 4</div>
+            <div class="drop-zone"> 5</div>
+            <div class="drop-zone"> 6</div>
 
         </section> <!--end mixer-->
+       
 
         <section id="speaker_rt"> <!--speaker 2-->
-            <div>instrument 1</div>
-            <div>instrument 2</div>
-            <div>instrument 3</div>
-            <div>instrument 4</div> 
+            <div>
+                <img class="instruments" draggable="true" src="Images/svg_icons/drum.svg" alt="drum">
+            </div>
+            <div>
+                <img class="instruments" draggable="true" src="Images/svg_icons/bongo.svg" alt="bongo">
+            </div>
+            <div>
+                <img class="instruments" draggable="true" src="Images/svg_icons/guitar.svg" alt="guitar">
+            </div>
+            <div>
+                <img class="instruments" draggable="true" src="Images/svg_icons/violin.svg" alt="violin">
+            </div> 
         </section>   <!-- end speaker 2-->
 
       </section>    <!--end speakers and the mixer-->
 
-      <section id="control">  <!--icons for controlling the mixer-->
-          <div>volume up</div>
-          <div>volume down</div>
-          <div>pause</div>
-          <div>play</div>
+      <section id="control" class="theSystem">  <!--icons for controlling the mixer-->
+          <div>
+            <img src="Images/svg_icons/volume_up_button.svg" alt="volume up button">
+          </div>
+
+          <div>
+            <img src="Images/svg_icons/volume_down_button.svg" alt="volume down button">
+          </div>
+
+          <div>
+            <img id="pause-button" src="Images/svg_icons/pause_button.svg" alt="pause button">
+          </div>
+
+          <div>
+            <img id="play button" src="Images/svg_icons/play_button.svg" alt="play button">
+          </div>
+
       </section>  <!--end of controlling icons-->
 
     </section>   <!--end container-->
