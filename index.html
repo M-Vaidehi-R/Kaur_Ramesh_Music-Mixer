@@ -17,6 +17,8 @@
         <h2>MIX & MATCH</h2>
     </header>
 
+  
+
     <section id="container">  <!--the whole music mixer-->
         <h2 hidden>The whole mixer</h2>
 
@@ -24,18 +26,26 @@
         <h2 hidden>Speakers and mixer</h2>
 
         <section id="speaker_lt"> <!--speaker 1-->
+            
+          
             <h2 hidden>Left speaker</h2>
 
-            <div>
-                <img class="instruments" draggable="true" src="Images/svg_icons/saxophone.svg" alt="saxophone">
+            <div>  
+                <!-- <img src="images/wmm.jpeg" data-trackref="Companion" alt="album art" class="track-ref">  -class reference-->
+                <img class="instruments" data-trackref="saxophone" draggable="true" src="Images/svg_icons/saxophone.svg" alt="saxophone">
+                <audio src="Music/Saxophone.mp3" controls></audio>
             </div>
             <div>
-                <img class="instruments" draggable="true" src="Images/svg_icons/trumpet.svg" alt="trumpet">
+                <img class="instruments" data-trackref="trumphet" draggable="true" src="Images/svg_icons/trumpet.svg" alt="trumpet">
+                <audio src="Music/trumphet.mp3" controls></audio>
             </div>
             <div>
-                <img class="instruments" draggable="true" src="Images/svg_icons/piano.svg" alt="piano">
+                <img class="instruments" data-trackref="Piano" draggable="true" src="Images/svg_icons/piano.svg" alt="piano">
+                <audio src="Music/Piano.mp3" controls></audio>
             </div>
-            <div><img class="instruments" draggable="true" src="Images/svg_icons/xylophone.svg" alt="xylophone"></div>
+            <div><img class="instruments" data-trackref="xylophone" draggable="true" src="Images/svg_icons/xylophone.svg" alt="xylophone">
+                <audio src="Music/xylophone.mp3" controls></audio>
+            </div>
         </section>      <!-- end speaker 1-->
 
         <section class="mixer"> <!--mixer with maximum of 6 slots for instrument, only 6 sounds can be mixed-->
@@ -55,18 +65,23 @@
        
 
         <section id="speaker_rt"> <!--speaker 2-->
+    
             <h2 hidden>Right speaker</h2>
             <div>
-                <img class="instruments" draggable="true" src="Images/svg_icons/drum.svg" alt="drum">
+                <img class="instruments" data-trackref="drums" draggable="true" src="Images/svg_icons/drum.svg" alt="drum">
+                <audio src="Music/drums.mp3" controls></audio>
             </div>
             <div>
-                <img class="instruments" draggable="true" src="Images/svg_icons/bongo.svg" alt="bongo">
+                <img class="instruments" data-trackref="bongo" draggable="true" src="Images/svg_icons/bongo.svg" alt="bongo">
+                <audio src="Music/bongo.mp3" controls></audio>
             </div>
             <div>
-                <img class="instruments" draggable="true" src="Images/svg_icons/guitar.svg" alt="guitar">
+                <img class="instruments" data-trackref="guitar" draggable="true" src="Images/svg_icons/guitar.svg" alt="guitar">
+                <audio src="Music/guitar.mp3" controls></audio>
             </div>
             <div>
-                <img class="instruments" draggable="true" src="Images/svg_icons/violin.svg" alt="violin">
+                <img class="instruments" data-trackref="violin" draggable="true" src="Images/svg_icons/violin.svg" alt="violin">
+                <audio src="Music/violin.mp3" controls></audio>
             </div> 
         </section>   <!-- end speaker 2-->
 

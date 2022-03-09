@@ -10,13 +10,15 @@ h2{
     color: aliceblue;
   
 }
-
+.hidden{
+    display:none;
+}
 
 .instruments{
     margin-left:8em;
     width: 40%;
     height:40%;
-    cursor:grabbing;
+   /* cursor:grabbing;*/
 }
 
 .instruments img:hover {
@@ -24,8 +26,7 @@ h2{
 }
 
 #container {
-width: 1920px;
-  
+width: 1820px;
 }
 
 .theSystem{

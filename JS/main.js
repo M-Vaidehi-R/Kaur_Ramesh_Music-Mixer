@@ -4,26 +4,31 @@ console.log ("music mixer :)")
 
 //declaring variables
 
-let instruments= document.querySelectorAll(".instruments"),
+let audioEl = document.querySelector("audio");
+const instruments= document.querySelectorAll(".instruments"),
 dropZones= document.querySelectorAll(".drop-zone");
 
 
-//declaring functions  -no complete draggable option applied, just the consoles :)
-function dragStarted() {
-    console.log("Dragged ", this.alt);
+
+function loadTrack() {
+    let currentTrack = `Music/${this.dataset.trackref}.mp3`;
+    
+    console.log("Playing", this.dataset.trackref);
+
+    audioEl.src = currentTrack;
+    playTrack();
 }
 
-function DragoverFunc() {
-    console.log("element dragged over me :(" );
-}
+function playTrack(){
+    audioEl.play();
+ }
 
-function DropFunc() {
-    console.log ("an instrument is dropped in the circle");
-}
+
 
 
 //calling functions
 
+instruments.forEach(thumb => thumb.addEventListener("click", loadTrack));
 instruments.forEach(piece => piece.addEventListener("dragstart", dragStarted));
 
 dropZones.forEach (zone => {
