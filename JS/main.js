@@ -72,6 +72,7 @@ instruments.forEach(thumb => thumb.addEventListener("click", loadTrack));
 dropZones.forEach(zone => {
     zone.addEventListener("dragover", DragoverFunc);
     zone.addEventListener("drop", DropFunc);
+    zone.addEventListener("drop", loadTrack);
 })
 
 
