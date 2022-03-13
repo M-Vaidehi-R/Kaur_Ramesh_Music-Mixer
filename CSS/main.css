@@ -1,4 +1,4 @@
-
+@charset "utf-8";
 
 body{
     background-color: black;
@@ -56,14 +56,50 @@ display:block;
 
 
 .drop-zone {
-	width: 35%;
-  height: 20%;
+  height: 18%;
+  width: 40%;
   border: dashed rgb(240, 236, 8);
-  border-radius: 5em;
+  border-radius: 8em;
   margin: 2em;
   
 }
 
+.drop-zone img {
+    width: 100% !important;
+    float: none;
+}
+
+#inst1 img{
+    width:100%;
+}
+
+#inst2 img{
+    width:100%;
+}
+
+#inst3 img{
+    width:100%;
+}
+
+#inst4 img{
+    width:100%;
+}
+
+#inst5 img{
+    width:100%;
+}
+
+#inst6 img{
+    width:100%;
+}
+
+#inst7 img{
+    width:100%;
+}
+
+#inst8 img{
+    width:100%;
+}
 
 
 
