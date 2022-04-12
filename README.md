@@ -11,7 +11,7 @@ This is a music mixer. Total you are provided with 8 instruments, from which You
 followed the tutorials in [MDN web docs](https://developer.mozilla.org/) website 
 https://youtu.be/OHTudicK7nY 
 
-##Uasge
+## Uasge
 Clone this repository to your computer. 
 
-##License: MIT
+## License: MIT
