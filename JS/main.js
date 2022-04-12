@@ -6,22 +6,21 @@ console.log ("music mixer :)")
 
 let audioEl = document.querySelector("audio");
 const instruments= document.querySelectorAll(".instruments"),
-dropZones= document.querySelectorAll(".drop-zone");
+dropZones= document.querySelectorAll(".drop-zone"),
+Play=document.querySelector("#play-button"),
+Pause=document.querySelector("#pause-button");
 
 
-
-function loadTrack() {
-    let currentTrack = `Music/${this.dataset.trackref}.mp3`;
+function loadTrack(trackref) {
+    let currentTrack = `Music/${trackref}.mp3`;
     
-    console.log("Playing", this.dataset.trackref);
+    console.log("Playing", trackref);
 
     audioEl.src = currentTrack;
-    playTrack();
-}
-
-function playTrack(){
+    audioEl.load();
     audioEl.play();
- }
+   
+}
 
  function dragStarted(event) {
     console.log("Dragged", this.alt);
@@ -56,10 +55,15 @@ function DropFunc(event) {
     let droppedInstrmnt = document.getElementById(droppedInstrmntId);
     console.log ("dropped");
     this.appendChild(droppedInstrmnt);
+    let target= droppedInstrmnt.dataset.trackref;
+    loadTrack(target);
 
 //debugger;
 
 } 
+
+function playTrack(){audioEl.play(); }
+function pauseTrack(){audioEl.pause(); }
 
 
 //calling functions
@@ -74,6 +78,8 @@ dropZones.forEach(zone => {
     zone.addEventListener("drop", DropFunc);
     zone.addEventListener("drop", loadTrack);
 })
+Play.addEventListener("click", playTrack);
+Pause.addEventListener("click",pauseTrack );
 
 
 })();
