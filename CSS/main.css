@@ -15,9 +15,9 @@ h2{
 }
 
 .instruments{
-    margin-left:8em;
     width: 40%;
-    height:40%;
+    /*margin-left:8em;
+    height:40%;*/
    /* cursor:grabbing;*/
 }
 
@@ -32,7 +32,7 @@ width: 1820px;
 .theSystem{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-    margin: 1em;
+    margin-left: 9em;
     color:beige;
     padding: .5em;
 
@@ -56,9 +56,9 @@ display:block;
 
 
 .drop-zone {
-  height: 18%;
-  width: 40%;
-  border: dashed rgb(240, 236, 8);
+  height: 180px;
+  width: 180px;
+  border: solid 3px rgb(240, 236, 8);
   border-radius: 8em;
   margin: 2em;
   
@@ -66,9 +66,9 @@ display:block;
 
 .drop-zone img {
     width: 100% !important;
-    float: none;
 }
 
+/*
 #inst1 img{
     width:100%;
 }
@@ -99,7 +99,7 @@ display:block;
 
 #inst8 img{
     width:100%;
-}
+}*/
 
 
 
