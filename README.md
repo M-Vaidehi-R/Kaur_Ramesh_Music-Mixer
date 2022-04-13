@@ -1,4 +1,5 @@
 # MUSIC MIXER
+### MultiMedia Authoring 2
 
 ## Submitted By:
 [Mamatha Ramesh](https://github.com/M-Vaidehi-R) <br>
