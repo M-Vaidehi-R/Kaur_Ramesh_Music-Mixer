@@ -1,8 +1,8 @@
 # MUSIC MIXER
 
 ## Submitted By:
-Ishpreet Kaur (Designer) <br>
-Mamatha Ramesh (Developer)
+[Mamatha Ramesh](https://github.com/M-Vaidehi-R) <br>
+[Ishpreet Kaur](https://github.com/ishpreetxo)
 
 ## Languages Used
 HTML, CSS, JAVASCRIPT
