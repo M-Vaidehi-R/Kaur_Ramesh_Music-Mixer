@@ -1,7 +1,7 @@
 # MUSIC MIXER
 
 ## Submitted By:
-Ishpreet Kaur (Designer)
+Ishpreet Kaur (Designer) <br>
 Mamatha Ramesh (Developer)
 
 ## Languages Used
