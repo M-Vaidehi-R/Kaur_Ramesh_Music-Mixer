@@ -3,7 +3,8 @@
 body{
     background-color: black;
     /*background-image: url("../Images/background-1.jpg");*/
-    margin:1em;
+    border-left:rgb(228, 101, 171) solid 2em;
+    border-right:rgb(228, 101, 171) solid 2em ;
 }
 h2{
     font-size: 7em;
@@ -28,6 +29,8 @@ h2{
 
 #container {
 width: 1820px;
+/*height: 815px;*/
+
 }
 
 .theSystem{
@@ -59,7 +62,7 @@ display:block;
 .drop-zone {
   height: 180px;
   width: 180px;
-  border: solid 3px rgb(240, 236, 8);
+  border: solid 3px rgb(228, 101, 171);
   border-radius: 8em;
   margin: 2em;
   
@@ -67,6 +70,10 @@ display:block;
 
 .drop-zone img {
     width: 100% !important;
+}
+
+.playing{
+    
 }
 
 /*
